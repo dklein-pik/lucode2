@@ -53,7 +53,18 @@ mergestatistics <- function(dir = ".", file = NULL, renew = FALSE, quickcheck = 
   stats <- NULL
   outlist <- list()
   for (f in files) {
-    load(f)
+    status <- tryCatch(
+      load(f),
+      error = function(cond) {
+        message("Could not load ", f, ". Skipping.")
+        # return value
+        cond
+      }
+    )
+     
+    # skip if current file could not be loaded
+    if(inherits(status, "error")) next
+        
     if (anyNA(stats$modelstat)) {
       modelstat <- "unknown"
     } else if (all(stats$modelstat <= 2)) {
