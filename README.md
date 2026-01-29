@@ -1,6 +1,6 @@
 # Code Manipulation and Analysis Tools
 
-R package **lucode2**, version **0.52.1**
+R package **lucode2**, version **0.52.2**
 
 [![CRAN status](https://www.r-pkg.org/badges/version/lucode2)](https://cran.r-project.org/package=lucode2) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4389418.svg)](https://doi.org/10.5281/zenodo.4389418) [![R build status](https://github.com/pik-piam/lucode2/workflows/check/badge.svg)](https://github.com/pik-piam/lucode2/actions) [![codecov](https://codecov.io/gh/pik-piam/lucode2/branch/master/graph/badge.svg)](https://app.codecov.io/gh/pik-piam/lucode2) [![r-universe](https://pik-piam.r-universe.dev/badges/lucode2)](https://pik-piam.r-universe.dev/builds)
 
@@ -39,7 +39,7 @@ In case of questions / problems please contact Jan Philipp Dietrich <dietrich@pi
 
 To cite package **lucode2** in publications use:
 
-Dietrich J, Sauer P, Klein D, Giannousakis A, Bonsch M, Bodirsky B, Baumstark L, Richters O, Pflüger M (2025). "lucode2: Code Manipulation and Analysis Tools." doi:10.5281/zenodo.4389418 <https://doi.org/10.5281/zenodo.4389418>, Version: 0.52.1, <https://github.com/pik-piam/lucode2>.
+Dietrich J, Sauer P, Klein D, Giannousakis A, Bonsch M, Bodirsky B, Baumstark L, Richters O, Pflüger M (2026). "lucode2: Code Manipulation and Analysis Tools." doi:10.5281/zenodo.4389418 <https://doi.org/10.5281/zenodo.4389418>, Version: 0.52.2, <https://github.com/pik-piam/lucode2>.
 
 A BibTeX entry for LaTeX users is
 
@@ -48,9 +48,9 @@ A BibTeX entry for LaTeX users is
   title = {lucode2: Code Manipulation and Analysis Tools},
   author = {Jan Philipp Dietrich and Pascal Sauer and David Klein and Anastasis Giannousakis and Markus Bonsch and Benjamin Leon Bodirsky and Lavinia Baumstark and Oliver Richters and Mika Pflüger},
   doi = {10.5281/zenodo.4389418},
-  date = {2025-12-05},
-  year = {2025},
+  date = {2026-01-29},
+  year = {2026},
   url = {https://github.com/pik-piam/lucode2},
-  note = {Version: 0.52.1},
+  note = {Version: 0.52.2},
 }
 ```
